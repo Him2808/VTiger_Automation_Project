@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="genericUtility.VtigerContactOpportunities">
+      <class name="testcaseRepo.Scenario1">
         <methods>
-          <include name="contactOpportunities"/>
+          <include name="Organization"/>
           <include name="LoginOperation"/>
           <include name="LogOutOperation"/>
-          <include name="CloseDbConnection"/>
           <include name="DbConnectionEstablished"/>
+          <include name="CloseDbConnection"/>
           <include name="LaunchingBrowser"/>
           <include name="CloseWindow"/>
         </methods>
-      </class> <!-- genericUtility.VtigerContactOpportunities -->
+      </class> <!-- testcaseRepo.Scenario1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
